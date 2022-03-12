@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366AF7F027DAAB7F0032B698 /* EldenRingMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AF7EF27DAAB7F0032B698 /* EldenRingMapApp.swift */; };
+		366AF7F227DAAB7F0032B698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AF7F127DAAB7F0032B698 /* ContentView.swift */; };
+		366AF7F427DAAB810032B698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366AF7F327DAAB810032B698 /* Assets.xcassets */; };
+		366AF7F727DAAB810032B698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366AF7F627DAAB810032B698 /* Preview Assets.xcassets */; };
+		366AF80127DAAB810032B698 /* EldenRingMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AF80027DAAB810032B698 /* EldenRingMapTests.swift */; };
+		366AF80B27DAAB810032B698 /* EldenRingMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AF80A27DAAB810032B698 /* EldenRingMapUITests.swift */; };
+		366AF80D27DAAB810032B698 /* EldenRingMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AF80C27DAAB810032B698 /* EldenRingMapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		366AF7FD27DAAB810032B698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366AF7E427DAAB7F0032B698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366AF7EB27DAAB7F0032B698;
+			remoteInfo = EldenRingMap;
+		};
+		366AF80727DAAB810032B698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366AF7E427DAAB7F0032B698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366AF7EB27DAAB7F0032B698;
+			remoteInfo = EldenRingMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		366AF7EC27DAAB7F0032B698 /* EldenRingMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EldenRingMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366AF7EF27DAAB7F0032B698 /* EldenRingMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldenRingMapApp.swift; sourceTree = "<group>"; };
+		366AF7F127DAAB7F0032B698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		366AF7F327DAAB810032B698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366AF7F627DAAB810032B698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		366AF7FC27DAAB810032B698 /* EldenRingMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldenRingMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366AF80027DAAB810032B698 /* EldenRingMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldenRingMapTests.swift; sourceTree = "<group>"; };
+		366AF80627DAAB810032B698 /* EldenRingMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldenRingMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366AF80A27DAAB810032B698 /* EldenRingMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldenRingMapUITests.swift; sourceTree = "<group>"; };
+		366AF80C27DAAB810032B698 /* EldenRingMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldenRingMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366AF7E927DAAB7F0032B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF7F927DAAB810032B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF80327DAAB810032B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366AF7E327DAAB7F0032B698 = {
+			isa = PBXGroup;
+			children = (
+				366AF7EE27DAAB7F0032B698 /* EldenRingMap */,
+				366AF7FF27DAAB810032B698 /* EldenRingMapTests */,
+				366AF80927DAAB810032B698 /* EldenRingMapUITests */,
+				366AF7ED27DAAB7F0032B698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366AF7ED27DAAB7F0032B698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366AF7EC27DAAB7F0032B698 /* EldenRingMap.app */,
+				366AF7FC27DAAB810032B698 /* EldenRingMapTests.xctest */,
+				366AF80627DAAB810032B698 /* EldenRingMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366AF7EE27DAAB7F0032B698 /* EldenRingMap */ = {
+			isa = PBXGroup;
+			children = (
+				366AF7EF27DAAB7F0032B698 /* EldenRingMapApp.swift */,
+				366AF7F127DAAB7F0032B698 /* ContentView.swift */,
+				366AF7F327DAAB810032B698 /* Assets.xcassets */,
+				366AF7F527DAAB810032B698 /* Preview Content */,
+			);
+			path = EldenRingMap;
+			sourceTree = "<group>";
+		};
+		366AF7F527DAAB810032B698 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				366AF7F627DAAB810032B698 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		366AF7FF27DAAB810032B698 /* EldenRingMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				366AF80027DAAB810032B698 /* EldenRingMapTests.swift */,
+			);
+			path = EldenRingMapTests;
+			sourceTree = "<group>";
+		};
+		366AF80927DAAB810032B698 /* EldenRingMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				366AF80A27DAAB810032B698 /* EldenRingMapUITests.swift */,
+				366AF80C27DAAB810032B698 /* EldenRingMapUITestsLaunchTests.swift */,
+			);
+			path = EldenRingMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366AF7EB27DAAB7F0032B698 /* EldenRingMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366AF81027DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMap" */;
+			buildPhases = (
+				366AF7E827DAAB7F0032B698 /* Sources */,
+				366AF7E927DAAB7F0032B698 /* Frameworks */,
+				366AF7EA27DAAB7F0032B698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EldenRingMap;
+			productName = EldenRingMap;
+			productReference = 366AF7EC27DAAB7F0032B698 /* EldenRingMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		366AF7FB27DAAB810032B698 /* EldenRingMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366AF81327DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMapTests" */;
+			buildPhases = (
+				366AF7F827DAAB810032B698 /* Sources */,
+				366AF7F927DAAB810032B698 /* Frameworks */,
+				366AF7FA27DAAB810032B698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366AF7FE27DAAB810032B698 /* PBXTargetDependency */,
+			);
+			name = EldenRingMapTests;
+			productName = EldenRingMapTests;
+			productReference = 366AF7FC27DAAB810032B698 /* EldenRingMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		366AF80527DAAB810032B698 /* EldenRingMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366AF81627DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMapUITests" */;
+			buildPhases = (
+				366AF80227DAAB810032B698 /* Sources */,
+				366AF80327DAAB810032B698 /* Frameworks */,
+				366AF80427DAAB810032B698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366AF80827DAAB810032B698 /* PBXTargetDependency */,
+			);
+			name = EldenRingMapUITests;
+			productName = EldenRingMapUITests;
+			productReference = 366AF80627DAAB810032B698 /* EldenRingMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366AF7E427DAAB7F0032B698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					366AF7EB27DAAB7F0032B698 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					366AF7FB27DAAB810032B698 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 366AF7EB27DAAB7F0032B698;
+					};
+					366AF80527DAAB810032B698 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 366AF7EB27DAAB7F0032B698;
+					};
+				};
+			};
+			buildConfigurationList = 366AF7E727DAAB7F0032B698 /* Build configuration list for PBXProject "EldenRingMap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366AF7E327DAAB7F0032B698;
+			productRefGroup = 366AF7ED27DAAB7F0032B698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366AF7EB27DAAB7F0032B698 /* EldenRingMap */,
+				366AF7FB27DAAB810032B698 /* EldenRingMapTests */,
+				366AF80527DAAB810032B698 /* EldenRingMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366AF7EA27DAAB7F0032B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366AF7F727DAAB810032B698 /* Preview Assets.xcassets in Resources */,
+				366AF7F427DAAB810032B698 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF7FA27DAAB810032B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF80427DAAB810032B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366AF7E827DAAB7F0032B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366AF7F227DAAB7F0032B698 /* ContentView.swift in Sources */,
+				366AF7F027DAAB7F0032B698 /* EldenRingMapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF7F827DAAB810032B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366AF80127DAAB810032B698 /* EldenRingMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366AF80227DAAB810032B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366AF80D27DAAB810032B698 /* EldenRingMapUITestsLaunchTests.swift in Sources */,
+				366AF80B27DAAB810032B698 /* EldenRingMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		366AF7FE27DAAB810032B698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366AF7EB27DAAB7F0032B698 /* EldenRingMap */;
+			targetProxy = 366AF7FD27DAAB810032B698 /* PBXContainerItemProxy */;
+		};
+		366AF80827DAAB810032B698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366AF7EB27DAAB7F0032B698 /* EldenRingMap */;
+			targetProxy = 366AF80727DAAB810032B698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		366AF80E27DAAB810032B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		366AF80F27DAAB810032B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366AF81127DAAB810032B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EldenRingMap/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366AF81227DAAB810032B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EldenRingMap/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		366AF81427DAAB810032B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EldenRingMap.app/EldenRingMap";
+			};
+			name = Debug;
+		};
+		366AF81527DAAB810032B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EldenRingMap.app/EldenRingMap";
+			};
+			name = Release;
+		};
+		366AF81727DAAB810032B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EldenRingMap;
+			};
+			name = Debug;
+		};
+		366AF81827DAAB810032B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B7DZDNL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gsabatie.EldenRingMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EldenRingMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366AF7E727DAAB7F0032B698 /* Build configuration list for PBXProject "EldenRingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366AF80E27DAAB810032B698 /* Debug */,
+				366AF80F27DAAB810032B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366AF81027DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366AF81127DAAB810032B698 /* Debug */,
+				366AF81227DAAB810032B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366AF81327DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366AF81427DAAB810032B698 /* Debug */,
+				366AF81527DAAB810032B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366AF81627DAAB810032B698 /* Build configuration list for PBXNativeTarget "EldenRingMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366AF81727DAAB810032B698 /* Debug */,
+				366AF81827DAAB810032B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366AF7E427DAAB7F0032B698 /* Project object */;
+}
